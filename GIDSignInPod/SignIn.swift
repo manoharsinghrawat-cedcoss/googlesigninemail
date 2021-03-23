@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import GoogleSignIn
+/*import GoogleSignIn
 import Firebase
 public class SignIn : UIResponder , UIApplicationDelegate , GIDSignInDelegate{
     public func configureFirebase(_ clientId : String , _ googleAppId : String , _ gcmSenderID: String , _ apiKey : String , _ projectID : String , _ bundleID : String)
@@ -29,5 +29,5 @@ public class SignIn : UIResponder , UIApplicationDelegate , GIDSignInDelegate{
     public func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         return GIDSignIn.sharedInstance().handle(url)
     }
-}
+}*/
 
