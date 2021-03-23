@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "googlesigninemail"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "GIDSignInPod helps you enable Google Sign In"
   spec.homepage     = "https://github.com/manoharsinghrawat-cedcoss/googlesigninemail"
   spec.platform = :ios

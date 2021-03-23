@@ -644,7 +644,7 @@ static GTMSessionFetcherTestBlock GTM_NULLABLE_TYPE gGlobalTestBlock;
         NSMapTable *sessionIdentifierToFetcherMap = [[self class] sessionIdentifierToFetcherMap];
         [sessionIdentifierToFetcherMap setObject:self forKey:self.sessionIdentifier];
 
-        if (@available(iOS 8.0, tvOS 9.0, watchOS 2.0, macOS 10.10, *)) {
+        if (@available(iOS 9.0, tvOS 9.0, watchOS 2.0, macOS 10.10, *)) {
           _configuration =
               [NSURLSessionConfiguration backgroundSessionConfigurationWithIdentifier:sessionIdentifier];
         } else {
@@ -872,7 +872,7 @@ static GTMSessionFetcherTestBlock GTM_NULLABLE_TYPE gGlobalTestBlock;
     newSessionTask.taskDescription = _taskDescription;
   }
   if (_taskPriority >= 0) {
-    if (@available(iOS 8.0, macOS 10.10, *)) {
+    if (@available(iOS 9.0, macOS 10.10, *)) {
       newSessionTask.priority = _taskPriority;
     }
   }
