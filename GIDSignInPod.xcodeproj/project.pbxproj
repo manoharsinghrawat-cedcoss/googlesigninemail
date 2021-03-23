@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E06A19B66E3DE95138DBF33 /* libPods-GIDSignInPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0B1831FB98BC829190C38F /* libPods-GIDSignInPod.a */; };
+		CFB0B9662608CA0A00F5D205 /* GIDSignInPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB0B95C2608CA0A00F5D205 /* GIDSignInPod.framework */; };
+		CFB0B96B2608CA0A00F5D205 /* GIDSignInPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0B96A2608CA0A00F5D205 /* GIDSignInPodTests.swift */; };
+		CFB0B96D2608CA0A00F5D205 /* GIDSignInPod.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB0B95F2608CA0A00F5D205 /* GIDSignInPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB0B98B2608CA7B00F5D205 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0B98A2608CA7B00F5D205 /* SignIn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFB0B9672608CA0A00F5D205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB0B9532608CA0A00F5D205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB0B95B2608CA0A00F5D205;
+			remoteInfo = GIDSignInPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6205807F905459234CA8797B /* Pods-GIDSignInPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIDSignInPod.release.xcconfig"; path = "Target Support Files/Pods-GIDSignInPod/Pods-GIDSignInPod.release.xcconfig"; sourceTree = "<group>"; };
+		CC0B1831FB98BC829190C38F /* libPods-GIDSignInPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GIDSignInPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB0B95C2608CA0A00F5D205 /* GIDSignInPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GIDSignInPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB0B95F2608CA0A00F5D205 /* GIDSignInPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIDSignInPod.h; sourceTree = "<group>"; };
+		CFB0B9602608CA0A00F5D205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB0B9652608CA0A00F5D205 /* GIDSignInPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIDSignInPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB0B96A2608CA0A00F5D205 /* GIDSignInPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIDSignInPodTests.swift; sourceTree = "<group>"; };
+		CFB0B96C2608CA0A00F5D205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB0B98A2608CA7B00F5D205 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		E305FEE216FB7567045F9528 /* Pods-GIDSignInPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIDSignInPod.debug.xcconfig"; path = "Target Support Files/Pods-GIDSignInPod/Pods-GIDSignInPod.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB0B9592608CA0A00F5D205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E06A19B66E3DE95138DBF33 /* libPods-GIDSignInPod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB0B9622608CA0A00F5D205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB0B9662608CA0A00F5D205 /* GIDSignInPod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E05DF7F4B580A49E1408632 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E305FEE216FB7567045F9528 /* Pods-GIDSignInPod.debug.xcconfig */,
+				6205807F905459234CA8797B /* Pods-GIDSignInPod.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CFB0B9522608CA0A00F5D205 = {
+			isa = PBXGroup;
+			children = (
+				CFB0B95E2608CA0A00F5D205 /* GIDSignInPod */,
+				CFB0B9692608CA0A00F5D205 /* GIDSignInPodTests */,
+				CFB0B95D2608CA0A00F5D205 /* Products */,
+				7E05DF7F4B580A49E1408632 /* Pods */,
+				E333FEE085D4A1B3E7A588EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB0B95D2608CA0A00F5D205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB0B95C2608CA0A00F5D205 /* GIDSignInPod.framework */,
+				CFB0B9652608CA0A00F5D205 /* GIDSignInPodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB0B95E2608CA0A00F5D205 /* GIDSignInPod */ = {
+			isa = PBXGroup;
+			children = (
+				CFB0B95F2608CA0A00F5D205 /* GIDSignInPod.h */,
+				CFB0B9602608CA0A00F5D205 /* Info.plist */,
+				CFB0B98A2608CA7B00F5D205 /* SignIn.swift */,
+			);
+			path = GIDSignInPod;
+			sourceTree = "<group>";
+		};
+		CFB0B9692608CA0A00F5D205 /* GIDSignInPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB0B96A2608CA0A00F5D205 /* GIDSignInPodTests.swift */,
+				CFB0B96C2608CA0A00F5D205 /* Info.plist */,
+			);
+			path = GIDSignInPodTests;
+			sourceTree = "<group>";
+		};
+		E333FEE085D4A1B3E7A588EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC0B1831FB98BC829190C38F /* libPods-GIDSignInPod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CFB0B9572608CA0A00F5D205 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB0B96D2608CA0A00F5D205 /* GIDSignInPod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CFB0B95B2608CA0A00F5D205 /* GIDSignInPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB0B9702608CA0A00F5D205 /* Build configuration list for PBXNativeTarget "GIDSignInPod" */;
+			buildPhases = (
+				8E6A67DCE01F9EB16D54455B /* [CP] Check Pods Manifest.lock */,
+				CFB0B9572608CA0A00F5D205 /* Headers */,
+				CFB0B9582608CA0A00F5D205 /* Sources */,
+				CFB0B9592608CA0A00F5D205 /* Frameworks */,
+				CFB0B95A2608CA0A00F5D205 /* Resources */,
+				634A8F71AF9D5F09B862A8C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIDSignInPod;
+			productName = GIDSignInPod;
+			productReference = CFB0B95C2608CA0A00F5D205 /* GIDSignInPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFB0B9642608CA0A00F5D205 /* GIDSignInPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB0B9732608CA0A00F5D205 /* Build configuration list for PBXNativeTarget "GIDSignInPodTests" */;
+			buildPhases = (
+				CFB0B9612608CA0A00F5D205 /* Sources */,
+				CFB0B9622608CA0A00F5D205 /* Frameworks */,
+				CFB0B9632608CA0A00F5D205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB0B9682608CA0A00F5D205 /* PBXTargetDependency */,
+			);
+			name = GIDSignInPodTests;
+			productName = GIDSignInPodTests;
+			productReference = CFB0B9652608CA0A00F5D205 /* GIDSignInPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB0B9532608CA0A00F5D205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CFB0B95B2608CA0A00F5D205 = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+					CFB0B9642608CA0A00F5D205 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = CFB0B9562608CA0A00F5D205 /* Build configuration list for PBXProject "GIDSignInPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB0B9522608CA0A00F5D205;
+			productRefGroup = CFB0B95D2608CA0A00F5D205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB0B95B2608CA0A00F5D205 /* GIDSignInPod */,
+				CFB0B9642608CA0A00F5D205 /* GIDSignInPodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB0B95A2608CA0A00F5D205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB0B9632608CA0A00F5D205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		634A8F71AF9D5F09B862A8C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GIDSignInPod/Pods-GIDSignInPod-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GIDSignInPod/Pods-GIDSignInPod-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GIDSignInPod/Pods-GIDSignInPod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E6A67DCE01F9EB16D54455B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GIDSignInPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB0B9582608CA0A00F5D205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB0B98B2608CA7B00F5D205 /* SignIn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB0B9612608CA0A00F5D205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB0B96B2608CA0A00F5D205 /* GIDSignInPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFB0B9682608CA0A00F5D205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB0B95B2608CA0A00F5D205 /* GIDSignInPod */;
+			targetProxy = CFB0B9672608CA0A00F5D205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFB0B96E2608CA0A00F5D205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFB0B96F2608CA0A00F5D205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFB0B9712608CA0A00F5D205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E305FEE216FB7567045F9528 /* Pods-GIDSignInPod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GIDSignInPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cedcoss.GIDSignInPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFB0B9722608CA0A00F5D205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6205807F905459234CA8797B /* Pods-GIDSignInPod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GIDSignInPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cedcoss.GIDSignInPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFB0B9742608CA0A00F5D205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				INFOPLIST_FILE = GIDSignInPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cedcoss.GIDSignInPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFB0B9752608CA0A00F5D205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				INFOPLIST_FILE = GIDSignInPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cedcoss.GIDSignInPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB0B9562608CA0A00F5D205 /* Build configuration list for PBXProject "GIDSignInPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB0B96E2608CA0A00F5D205 /* Debug */,
+				CFB0B96F2608CA0A00F5D205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB0B9702608CA0A00F5D205 /* Build configuration list for PBXNativeTarget "GIDSignInPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB0B9712608CA0A00F5D205 /* Debug */,
+				CFB0B9722608CA0A00F5D205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB0B9732608CA0A00F5D205 /* Build configuration list for PBXNativeTarget "GIDSignInPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB0B9742608CA0A00F5D205 /* Debug */,
+				CFB0B9752608CA0A00F5D205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB0B9532608CA0A00F5D205 /* Project object */;
+}
